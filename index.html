@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youth Pop Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    </header>
+            
+    <section id="hero">
+        
+    </section>
+
+            <div class="container">
+                        <h1>Youth Pop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#booking">Book Now</a></li>
+                    <li><a href="#login">Developer Login</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+    <section id="about" class="container">
+            <h2>Welcome to Youth Pop</h2>
+            <p>A lot in one POP!</p>
+        </div>
+        <h2>About Us</h2>
+        <p>We are primarily here to provide a good experience for your child. We provide a place to hang out and have fun, with nobody being left out, with something interesting for everybody.
+</p>
+    </section>
+
+
+    <section id="services" class="container">
+        <h2>Our Services</h2>
+        <p>Trouble finding a babysitter? Are your kids spending too much time on screens? Do they not socialise with anybody? Yes, these are all common problems. However, it doesn’t have to be this way. Our Youth Pop service provides a good experience for children and fun time socialising with others, away from their mobile devices. This service is also cheap, so you won’t have to worry about costs if you send your child to our service.
+</p>
+    </section>
+
+
+    <section id="booking" class="container">
+        <h2>Book Now</h2>
+                <form id="bookingForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <button onclick="autoCalculate()">Get the current ticket price</button>
+        <p id="autoResult"></p>
+    </section>
+
+
+    <section id="login" class="container">
+        <h2>Developer Login</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button onclick="login()">Login</button>
+        <p id="loginResult"></p>
+    </section>
+
+
+    <section id="devCalculator" class="container">
+        <h2>Developer Calculator</h2>
+        <label for="users">How many users are there?</label>
+        <input type="number" id="users" name="users" min="1" max="36" required>
+        <button onclick="calculatePrice()">Calculate</button>
+        <p id="result"></p>
+    </section>
+
+
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>Contact Email: contact@youthpop400.co.uk</p>
+        <p>Contact Email (about the website): contact@youthpop400digital.net</p>
+            <p>&copy; 2024 Youth Pop Digital ltd.</p>
+    </section>
+
+
+    <footer>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
