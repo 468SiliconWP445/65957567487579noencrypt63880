@@ -1,5 +1,5 @@
 function calculatePrice() {
-    const price = 83.025;
+    const price = 121.5;
     const users = document.getElementById('users').value;
     const resultElement = document.getElementById('result');
 
@@ -30,7 +30,7 @@ function login() {
 
 
 function autoCalculate() {
-    const price = 83.025;
+    const price = 121.5;
     const users = Math.floor(Math.random() * 36) + 1;  // Random number between 1 and 36
     const autoResult = document.getElementById('autoResult');
 
